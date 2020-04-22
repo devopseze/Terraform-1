@@ -30,7 +30,7 @@ variable "environment" {
   default = null
 }
 
-module "sandbox_vpc" {
+module "dev_vpc" {
   source = "/root/tf_test/modules/vpc"
 
   availability_zones        = var.availability_zones
