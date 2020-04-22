@@ -1,1 +1,1 @@
-environment = "sandbox"
+environment = "dev"
